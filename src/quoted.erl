@@ -14,6 +14,7 @@
 %%   limitations under the License.
 %%
 -module(quoted).
+-compile([no_native]).
 -on_load(load_nif/0).
 
 %% exported functions
